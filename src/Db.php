@@ -2,7 +2,7 @@
 
 namespace smdb;
 
-class Model extends Illuminate\Database\Capsule\Manager
+class Db extends Illuminate\Database\Capsule\Manager
 {
     public function __construct()
     {
